@@ -1,0 +1,36 @@
+.singalShow {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  margin: 16px;
+  background-image: linear-gradient(45deg, teal, #f2ffe1);
+  border-radius: 20px;
+  transition: transform 0.5s;
+}
+.singalShow img {
+  border-radius: 6px;
+}
+
+.singalShow:hover {
+  zoom: 1.02;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  color: white;
+  transform: scale(1.03);
+  box-shadow: 22px 23px 100px -22px rgba(0, 0, 0, 1);
+}
+
+a {
+  padding: 4px;
+  background-color: black;
+  color: white;
+}
+a:hover {
+  color: back;
+  font-size: 15px;
+}
